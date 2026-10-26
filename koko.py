@@ -9,7 +9,7 @@ except ImportError:
 
 client = OpenAI(
     base_url="https://oxionai.com/v1", 
-    api_key="cc_seHs7M6uCQ0whOQp3MkVHdkMdHmki1gF8kUCxiFsh0zgADry"
+    api_key=st.secrets["OXION_KEY"]
 )
 
 SYSTEM_PROMPT = """Ты — Коко, продвинутый ИИ-ассистент. 
