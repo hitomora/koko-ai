@@ -9,7 +9,7 @@ except ImportError:
     from duckduckgo_search import DDGS
 
 client = OpenAI(
-    base_url="https://oxionai.com/v1", 
+    base_url="https://oxionai.com/v1",
     api_key=st.secrets["OXION_KEY"]
 )
 
