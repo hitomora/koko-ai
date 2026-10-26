@@ -1,3 +1,4 @@
+import streamlit as st
 import json
 import sympy as sp
 from openai import OpenAI
